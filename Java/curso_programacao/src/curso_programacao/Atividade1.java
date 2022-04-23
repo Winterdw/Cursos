@@ -23,6 +23,8 @@ public class Atividade1 {
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f %n", measure);
 		
+		//Correção do Professor
+		
 		System.out.printf("---------------- Alternativa----------------%n");
 		System.out.println("Products:");
 		System.out.printf("%s, which price is $ %.2f%n", produto1, preco1);
