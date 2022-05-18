@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap');
+:root{
+    --cor-primaria:lightcoral;
+    --cor-secundaria:DimGrey;
+    --cor-terciaria:Gainsboro;
+}
+body{
+    background-color: var(--cor-primaria);    
+    font-size: 15px;
+    font-family: Lato;
+    
+}
+
+#container{
+    height: 525px;
+    width: 360px;
+    margin: 100px auto;
+    background: #f7f7f7;
+    box-shadow: 5px 5px 5px var(--cor-secundaria);
+    border-radius: 20px;
+}
+
+.titulo{
+    background: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    padding: 20px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: normal;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+}
+
+.form{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.formInput{
+    background: white;
+    width: 90px;
+    padding: 5px 5px 8px 8px;
+}
+
+.formInput:focus{
+    border: 3px solid var(--cor-primaria);
+    outline: none;
+}
+
+.formSelect{    
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.botao{
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: var(--cor-primaria);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--cor-secundaria);
+    width: 200px;
+    height: 40px;
+    font-size: 17px;
+    color: white;
+}
