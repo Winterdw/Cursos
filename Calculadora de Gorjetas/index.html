@@ -19,7 +19,7 @@
         </div>
 
         <div>
-            <form class="form " action="">
+            <form class="form" id="form" action="">
                 <br>
                 <label for="conta">Quanto ficou a conta?</label>
                 <p>
@@ -29,7 +29,7 @@
                 <p>
                     <label for="servico">Como foi seu serviço?</label>
                     <br>
-                    <select name="servico" id="servico" class="formSelect">
+                    <select name="servico" id="servico" class="formSelect" required>
                         <option disable selected value="0">Escolha uma opção</option>
                         <option value="0.3">30% - Incrível</option>
                         <option value="0.2">20% - Bom</option>
@@ -48,8 +48,13 @@
                 <button class="botao" type="submit">Calcular</button>
             </form>
         </div>
+        <div id="total">
+            Gorjeta Total:
+            R$<span id="gorjeta">0.00</span>
+            <span id="cada">cada</span>
+        </div>
     </div>
-
+    <script type="text/javascript" src="./src/js/index.js"></script>
 </body>
 
 </html>
